@@ -30,9 +30,9 @@ import { Socket } from "phoenix"
 import { LiveSocket } from "phoenix_live_view"
 import topbar from "../vendor/topbar"
 
-import { themeChange } from "theme-change";
-console.log("themeChange")
-themeChange();
+//import { themeChange } from "theme-change";
+//console.log("themeChange")
+//themeChange();
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 let liveSocket = new LiveSocket("/live", Socket, { params: { _csrf_token: csrfToken } })
