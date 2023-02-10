@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "daisyui": "^2.41.0",
+    "theme-change": "^2.2.0"
+  }
+}
